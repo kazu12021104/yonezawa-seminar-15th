@@ -1,0 +1,407 @@
+body{
+  background-color: rgb(241, 245, 245);
+  opacity: 0.7;
+}
+
+header{
+  font-family: serif;
+  font-size: 2.5vw;
+  margin: 2%;
+  height: 170px;
+}
+
+h1{
+  text-align: center;
+  margin: 0;
+}
+
+.homecontents{
+  text-align: center;
+  height: 120vw;
+  margin-top: 8vw;
+}
+
+.contents{
+  padding: 2%;
+  height: 15vw;
+}
+
+.btn{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  border-bottom: 2px solid black;
+  color: black;
+  border-radius: 4px;
+  transition: .4s;
+}
+
+.btn span{
+  position: relative;
+  z-index: 1;
+  top: 20%;
+  font-size: 3vw;
+  font-family: serif;
+}
+
+.btn:hover{
+  background-color: gray;
+  color: white;
+}
+
+.title{
+  font-family: serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 3%;
+  border-bottom:2px solid black;
+  font-size: 2vw;
+  height: 72px;
+}
+
+.thesis{
+  margin-left: 10%;
+  margin-right: 5%;
+  padding: 1%;
+}
+
+
+.name p{
+  color: black;
+  text-decoration: none;
+  font-family: serif;
+  font-size: 3vw;
+  margin: 0;
+  padding-top: 2%;
+}
+
+.name a{
+  color: black;
+  text-decoration: none;
+  font-family: serif;
+  font-size: 3vw;
+  padding-bottom: 2%;
+}
+
+.campver{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.campver a{
+  color: black;
+  text-decoration: none;
+  font-family: serif;
+  font-size: 3vw;
+}
+
+.winterver{
+  border-bottom: 2px solid black;
+}
+
+.camptask{
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: serif;
+  text-align: center;
+}
+
+.task{
+  padding-bottom: 3%;
+}
+
+.task p{
+  font-size: 2vw;
+}
+
+.task a{
+  color: black;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+.businesstask{
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: serif;
+  text-align: center;
+}
+
+.busitask{
+  padding-bottom: 3%;
+}
+
+.busitask a{
+  color: black;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+.busitask p{
+  font-size: 2vw;
+}
+
+.casetask{
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: serif;
+  text-align: center;
+}
+
+.casetask{
+  padding-bottom: 3%;
+}
+
+.casetask a{
+  color: black;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+.casetask p{
+  font-size: 2vw;
+}
+
+.items{
+  height: 20vw;
+}
+h3{
+  font-family: serif;
+  font-size: 6vw;
+  text-align: center;
+}
+.item{
+  height: 20vw;
+}
+
+.footmenu{
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top:2px solid black;
+}
+
+.footmenu a{
+  color: black;
+  text-decoration: none;
+  font-family: serif;
+}
+
+ul{
+  display: flex;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+
+footer{
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.top{
+  position   : relative;
+  height     : 60vw;
+  overflow   : hidden;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.top .top1{
+  position   : absolute;
+  background-size: cover;
+  top        : 0;
+  left       : 0;
+  bottom     : 0;
+  right      : 0;
+  opacity    : 0;
+  animation  : bgAnime 16s infinite;
+}
+
+.top .topsrc1{
+  background-image: url("img/top.JPG");
+}
+
+.top .topsrc2{
+  background-image: url("img/IMG_0745.JPG");
+  animation-delay  : 4s;
+}
+
+.top .topsrc3{
+  background-image: url("img/IMG_2161.JPG");
+  animation-delay  : 8s;
+}
+
+.top .topsrc4{
+  background-image: url("img/IMG_0751.JPG");
+  animation-delay  : 12s;
+}
+
+.box {
+  position   : relative;
+  height     : 60vw;
+  overflow   : hidden;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.box .bgImg {
+  position   : absolute;
+  background-size: cover;
+  top        : 0;
+  left       : 0;
+  bottom     : 0;
+  right      : 0;
+  opacity    : 0;
+  animation  : bgAnime 16s infinite;
+}
+
+.box .src1 {
+  background-image : url("img/IMG_0744.JPG");   /* 背景の画像を指定 */
+}
+.box .src2 {
+  background-image : url("img/IMG_0747.JPG");   /* 背景の画像を指定 */
+  animation-delay  : 4s;
+}
+.box .src3 {
+  background-image : url("img/IMG_0748.JPG");   /* 背景の画像を指定 */
+  animation-delay  : 8s;
+}
+.box .src4 {
+  background-image : url("img/IMG_0749.JPG");   /* 背景の画像を指定 */
+  animation-delay  : 12s;
+}
+
+.casetop{
+  position   : relative;
+  height     : 60vw;
+  overflow   : hidden;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.casetop .casetop1{
+  position   : absolute;
+  background-size: cover;
+  top        : 0;
+  left       : 0;
+  bottom     : 0;
+  right      : 0;
+  opacity    : 0;
+  animation  : bgAnime 16s infinite;
+}
+
+.casetop .casetopsrc1{
+  background-image: url("img/logo/starbackslogo.png");
+  background-position: center;
+}
+
+.casetop .casetopsrc2{
+  background-image: url("img/logo/Shiseido_logo.svg.png");
+  animation-delay  : 4s;
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.casetop .casetopsrc3{
+  background-image: url("img/logo/nissanlogo.png");
+  animation-delay  : 8s;
+  background-size: 80%;
+  background-position: center;
+}
+
+.casetop .casetopsrc4{
+  background-image: url("img/logo/uniqlo-logo.png");
+  animation-delay  : 12s;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@keyframes bgAnime {
+  0% { opacity: 0; }
+  5% { opacity: 1; }
+ 25% { opacity: 1; }
+ 30% { opacity: 0; }
+100% { opacity: 0; }
+}
+
+.busitop{
+  position   : relative;
+  height     : 60vw;
+  overflow   : hidden;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.busitop .busitop1{
+  position   : absolute;
+  background-size: cover;
+  top        : 0;
+  left       : 0;
+  bottom     : 0;
+  right      : 0;
+  opacity    : 0;
+  animation  : bgAnime 20s infinite;
+}
+
+.busitop .busisrc1{
+  background-image: url("img/logo/toto.logo.svg");
+}
+
+.busitop .busisrc2{
+  background-image: url("img/logo/daiso_logo.png");
+  animation-delay  : 4s;
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.busitop .busisrc3{
+  background-image: url("img/logo/Zojirushi_logo.svg.png");
+  animation-delay  : 8s;
+  background-size: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.busitop .busisrc4{
+  background-image: url("img/logo/analogo.png");
+  animation-delay  : 12s;
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.busitop .busisrc5{
+  background-image: url("img/logo/yukizirushi.png");
+  animation-delay  : 16s;
+  background-size: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@keyframes bgAnime {
+  0% { opacity: 0; }
+  5% { opacity: 1; }
+ 20% { opacity: 1; }
+ 25% { opacity: 0; }
+100% { opacity: 0; }
+}
